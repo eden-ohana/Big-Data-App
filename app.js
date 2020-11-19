@@ -65,6 +65,14 @@ function addPin() {
   pinButton.classList.add('add-pin-button--active');
 }
 
+// ?????????????
+function addPin() {
+  pinInPlacement = true;
+
+  const pinButton = document.getElementById('add-pin-button1');
+  pinButton.classList.add('add-pin-button--active');
+}
+
 // Register dialog
 const dialog = document.querySelector('dialog');
 if (!dialog.showModal) {
