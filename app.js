@@ -1,7 +1,5 @@
 
-
 const map = L.map('map').fitWorld();
-
 if (true) {
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
@@ -18,12 +16,13 @@ if (true) {
     zoomOffset: -1
   }).addTo(map);
 }
+
 // When set to true, the next map click will trigger dialog open for pin placement:
 let pinInPlacement = false;
-// Currefromnt pin coordinates, set by pressing the map
-let currentPinCoords = nullall
+// Current pin coordinates, set by pressing the map
+let currentPinCoords = null;
 const ZOOM_TO_LOCATION = false;
-log
+
 // Example code to show how to get GPS location and place pin on map in that location
 if (ZOOM_TO_LOCATION) {
   function onLocationFound(e) {
@@ -60,16 +59,7 @@ map.on('mousedown touchstart', function onMouseDown(event) {
 // Bottom-right button press event
 function addPin() {
   pinInPlacement = true;
-
   const pinButton = document.getElementById('add-pin-button');
-  pinButton.classList.add('add-pin-button--active');
-}
-
-// ?????????????
-function addPin() {
-  pinInPlacement = true;
-
-  const pinButton = document.getElementById('add-pin-button1');
   pinButton.classList.add('add-pin-button--active');
 }
 
@@ -78,6 +68,10 @@ const dialog = document.querySelector('dialog');
 if (!dialog.showModal) {
   dialogPolyfill.registerDialog(dialog);
 }
+
+fetch(`/xxx`, {
+  method: 'GET'
+});
 
 // Dialog save
 dialog.querySelector('#dialog-rate_save').addEventListener('click', function() {
@@ -128,3 +122,6 @@ fetch('/all_points', { method: 'GET' })
 function getRandomId() {
   return Math.random().toString().substr(2, 9);
 };
+
+
+
