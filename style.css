@@ -1,155 +1,154 @@
-
 html, body {
-    height: 85vh;
-    font-family: "David";
-    direction: rtl;
-    text-align: center;
-    background-color: #2b2b2b;
-    color: #ffffe6;
-  }
-  
-  
-   p{
-       font-family: "David";
-     font-size: 250%;
-     font-weight: bold;
-   }
-  
-  #map {
-    z-index: 9;
-    position: static;
-    height: 100%;
-    margin: 0 auto;
-    border-style: groove;
-  }
-  
-  .map iframe {
-    height: 100%;
-    width: 100%;
-  }
-  
+  height: 85vh;
+  font-family: "David";
+  direction: rtl;
+  text-align: center;
+  background-color: #2b2b2b;
+  color: #ffffe6;
+}
 
+
+ p{
+     font-family: "David";
+   font-size: 250%;
+   font-weight: bold;
+ }
+
+#map {
+  z-index: 9;
+  position: static;
+  height: 100%;
+  margin: 0 auto;
+  border-style: groove;
+}
+
+.map iframe {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+.map-overlay {
+  height: 25%;
+  margin: 0 auto;
+  background-color: #fff;
+  position: relative;
+  border-radius: 2px;
+  padding-top: 15px;
   
-  
-  .map-overlay {
-    height: 25%;
-    margin: 0 auto;
-    background-color: #fff;
-    position: relative;
-    border-radius: 2px;
-    padding-top: 15px;
-    
+}
+.ColumnContainer {
+    position:relative;
+}
+
+.ScrollContainer {
+    position:relative;
+    height:200px; /* must set fixed height */
+    overflow:overlay;
+
+}
+
+#add-pin-buttonS1 {
+  background-color: #f6a7a7;
+  border-style: solid;
+  position: center;
+  height: 5%;
+  width: 90%;
+  bottom: 5px;
+  right: 10px;
+  z-index: 1000;
+}
+
+
+
+#add-pin-buttonL2 {
+  background-color: #e4ac87;
+  border-style: solid;
+  position: center;
+  height: 5%;
+  width: 90%;
+  bottom: 5px;
+  right: 10px;
+  z-index: 1000;
+}
+
+#add-pin-buttonN3 {
+  background-color: #f0dcaf;
+  border-style: solid;
+  position: center;
+  height: 5%;
+  width: 90%;
+  bottom: 5px;
+  right: 10px;
+  z-index: 1000;
   }
-  .ColumnContainer {
-      position:relative;
-  }
-  
-  .ScrollContainer {
-      position:relative;
-      height:200px; /* must set fixed height */
-      overflow:overlay;
-  
-  }
-  
-  #add-pin-button1 {
-    background-color: #f6a7a7;
-    border-style: solid;
-    position: center;
-    height: 5%;
-    width: 90%;
-    bottom: 5px;
-    right: 10px;
-    z-index: 1000;
-  }
-  
-  
-  
-  #add-pin-button2 {
-    background-color: #e4ac87;
-    border-style: solid;
-    position: center;
-    height: 5%;
-    width: 90%;
-    bottom: 5px;
-    right: 10px;
-    z-index: 1000;
-  }
-  
-  #add-pin-button3 {
-    background-color: #f0dcaf;
-    border-style: solid;
-    position: center;
-    height: 5%;
-    width: 90%;
-    bottom: 5px;
-    right: 10px;
-    z-index: 1000;
-    }
-  
-  #add-pin-button4 {
-    background-color: #c0f5b6;
-    border-style: solid;
-    position: center;
-    height: 5%;
-    width: 90%;
-    bottom: 5px;
-    right: 10px;
-    z-index: 1000;
-  }
-  
-  
-  #add-pin-button5 {
-    background-color: #b9dcf8;
-    border-style: solid;
-    position: center;
-    height: 5%;
-    width: 90%;
-    bottom: 5px;
-    right: 10px;
-    z-index: 1000;
-  }
-  
-  
-  #add-pin-button6 {
-    background-color: #ccc9f8;
-    border-style: solid;
-    position: center;
-    height: 5%;
-    width: 90%;
-    bottom: 5px;
-    right: 10px;
-    z-index: 1000;
-  }
-  
-  #add-pin-button7 {
-    background-color: #f6cbdf;
-    border-style: solid;
-    position: center;
-    height: 5%;
-    width: 90%;
-    bottom: 5px;
-    right: 10px;
-    z-index: 1000;
-  }
-  
-  
-  #add-pin-button8 {
-    background-color: #dddadb;
-    border-style: solid;
-    position: center;
-    height: 5%;
-    width: 90%;
-    bottom: 5px;
-    right: 10px;
-    z-index: 1000;
-  }
-  
-  .dialog {
-    z-index: 1000;
-    position: absolute;
-    top: 100px;
-    left: 100px;
-  }
-  
-  body { padding: 0; margin: 0; } #map { height: 70%; width: 95vw; position: center; }
-  
+
+#add-pin-buttonR4 {
+  background-color: #c0f5b6;
+  border-style: solid;
+  position: center;
+  height: 5%;
+  width: 90%;
+  bottom: 5px;
+  right: 10px;
+  z-index: 1000;
+}
+
+
+#add-pin-buttonB5 {
+  background-color: #b9dcf8;
+  border-style: solid;
+  position: center;
+  height: 5%;
+  width: 90%;
+  bottom: 5px;
+  right: 10px;
+  z-index: 1000;
+}
+
+
+#add-pin-buttonD6 {
+  background-color: #ccc9f8;
+  border-style: solid;
+  position: center;
+  height: 5%;
+  width: 90%;
+  bottom: 5px;
+  right: 10px;
+  z-index: 1000;
+}
+
+#add-pin-buttonC7 {
+  background-color: #f6cbdf;
+  border-style: solid;
+  position: center;
+  height: 5%;
+  width: 90%;
+  bottom: 5px;
+  right: 10px;
+  z-index: 1000;
+}
+
+
+#add-pin-buttonM8 {
+  background-color: #dddadb;
+  border-style: solid;
+  position: center;
+  height: 5%;
+  width: 90%;
+  bottom: 5px;
+  right: 10px;
+  z-index: 1000;
+}
+
+.dialog {
+  z-index: 1000;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+body { padding: 0; margin: 0; } #map { height: 70%; width: 95vw; position: center; }
+
